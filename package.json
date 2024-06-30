@@ -2,6 +2,7 @@
   "name": "homework_10-1",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint .",
