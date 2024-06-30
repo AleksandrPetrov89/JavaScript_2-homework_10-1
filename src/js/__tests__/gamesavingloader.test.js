@@ -11,9 +11,7 @@ test('Проверка работы метода load()', () => {
       points: 2000,
     },
   };
-  // eslint-disable-next-line no-console
-  GameSavingLoader.load().then((saving) => {
-    // console.log(saving, typeof (saving));
+  return GameSavingLoader.load().then((saving) => {
     expect(saving).toEqual(res);
   });
 });
