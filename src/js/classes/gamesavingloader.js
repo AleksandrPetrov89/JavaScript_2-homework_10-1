@@ -1,5 +1,5 @@
-import read from '../reader.mjs';
-import json from '../parser.mjs';
+import read from '../reader.js';
+import json from '../parser.js';
 
 export default class GameSavingLoader {
   constructor(id, created, userInfo) {

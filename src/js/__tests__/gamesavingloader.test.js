@@ -1,4 +1,4 @@
-import GameSavingLoader from '../classes/gamesavingloader.mjs';
+import GameSavingLoader from '../classes/gamesavingloader.js';
 
 test('Проверка работы метода load()', () => {
   const res = {
